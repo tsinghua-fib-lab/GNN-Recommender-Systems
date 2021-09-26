@@ -10,9 +10,9 @@ An index of recommendation algorithms that are based on Graph Neural Networks.
    - [Social Recommendation](#Social-Recommendation)
    - [Sequential Recommendation](#Sequential-Recommendation)
    - [Session Recommendation](#Session-Recommendation)
-   - [Multi-behavior Recommendation](#Multi-behavior-Recommendation)
    - [Bundle Recommendation](#Bundle-Recommendation)
    - [Cross Domain Recommendation](#Cross-Domain-Recommendation)
+   - [Multi-behavior Recommendation](#Multi-behavior-Recommendation)
 - [GNN for different recommendation objectives](#Recommendation-Objectives)
    - [Diversity](#Diversity)
    - [Explainability](#Explainability)
@@ -107,21 +107,6 @@ An index of recommendation algorithms that are based on Graph Neural Networks.
 | COTREC | [Xia, X., Yin, H., Yu, J., Shao, Y., & Cui, L. (2021). Self-Supervised Graph Co-Training for Session-based Recommendation. arXiv preprint arXiv:2108.10560.](https://arxiv.org/pdf/2108.10560) | CIKM | 2021 | [Python](https://github.com/xiaxin1998/COTREC) |
 | SHARE | [Wang, J., Ding, K., Zhu, Z., & Caverlee, J. (2021). Session-based Recommendation with Hypergraph Attention Networks. In _Proceedings of the 2021 SIAM International Conference on Data Mining (SDM)_ (pp. 82-90). Society for Industrial and Applied Mathematics.](https://epubs.siam.org/doi/pdf/10.1137/1.9781611976700.10) | SDM | 2021 | NA |
 
-### Multi-behavior Recommendation
-| **Name** | **Paper** | **Venue** | **Year** | **Code** |
-| --- | --- | --- | --- | --- |
-| MGNN-SPred | [Wang, W., Zhang, W., Liu, S., Liu, Q., Zhang, B., Lin, L., & Zha, H. (2020, April). Beyond clicks: Modeling multi-relational item graph for session-based target behavior prediction. In _Proceedings of The Web Conference 2020_ (pp. 3056-3062).](https://arxiv.org/pdf/2002.07993) | WWW | 2020 | [Python](https://github.com/Autumn945/MGNN-SPred) |
-| MBGCN | [Jin, B., Gao, C., He, X., Jin, D., & Li, Y. (2020, July). Multi-behavior recommendation with graph convolutional networks. In _Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval_ (pp. 659-668).](http://staff.ustc.edu.cn/~hexn/papers/sigir20-MBGCN.pdf) | SIGIR | 2020 | NA |
-| MGNN | [Zhang, W., Mao, J., Cao, Y., & Xu, C. (2020, October). Multiplex Graph Neural Networks for Multi-behavior Recommendation. In _Proceedings of the 29th ACM International Conference on Information & Knowledge Management_ (pp. 2313-2316).](https://dl.acm.org/doi/abs/10.1145/3340531.3412119) | CIKM | 2020 | NA |
-| KHGT | [Xia, L., Huang, C., Xu, Y., Dai, P., Zhang, X., Yang, H., ... & Bo, L. (2021, May). Knowledge-Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 35, No. 5, pp. 4486-4493).](https://www.aaai.org/AAAI21Papers/AAAI-3071.XiaL.pdf) | AAAI | 2021 | [Python](https://github.com/akaxlh/KHGT) |
-| GHCF | [Chen, C., Ma, W., Zhang, M., Wang, Z., He, X., Wang, C., ... & Ma, S. (2021, May). Graph Heterogeneous Multi-Relational Recommendation. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 35, No. 5, pp. 3958-3966).](https://www.aaai.org/AAAI21Papers/AAAI-615.ChenC.pdf) | AAAI | 2021 | [Python](https://github.com/chenchongthu/GHCF) |
-| GNMR | [Xia, L., Huang, C., Xu, Y., Dai, P., Lu, M., & Bo, L. (2021, April). Multi-Behavior Enhanced Recommendation with Cross-Interaction Collaborative Relation Modeling. In _2021 IEEE 37th International Conference on Data Engineering (ICDE)_ (pp. 1931-1936). IEEE.](https://ieeexplore.ieee.org/abstract/document/9458929) | ICDE | 2021 | [Python](https://github.com/akaxlh/GNMR) |
-| DMBGN | [Xiao, F., Li, L., Xu, W., Zhao, J., Yang, X., Lang, J., & Wang, H. (2021). DMBGN: Deep Multi-Behavior Graph Networks for Voucher Redemption Rate Prediction. _arXiv preprint arXiv:2106.03356_.](https://arxiv.org/pdf/2106.03356) | KDD | 2021 | [Python](https://github.com/fengtong-xiao/DMBGN) |
-| MB-GMN | [Xia, L., Xu, Y., Huang, C., Dai, P., & Bo, L. (2021, July). Graph meta network for multi-behavior recommendation. In _Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval_ (pp. 757-766).](https://dl.acm.org/doi/abs/10.1145/3404835.3462972) | SIGIR | 2021 | [Python](https://github.com/akaxlh/MB-GMN) |
-| HMG-CR | [Yang, H., Chen, H., Li, L., Yu, P. S., & Xu, G. (2021). Hyper Meta-Path Contrastive Learning for Multi-Behavior Recommendation. _arXiv preprint arXiv:2109.02859_.](https://arxiv.org/pdf/2109.02859) | ICDM | 2021 | [Python](https://github.com/Haoran-Young/HMG-CR) |
-| LP-MRGNN | [Wang, W., Zhang, W., Liu, S., Liu, Q., Zhang, B., Lin, L., & Zha, H. (2021). Incorporating Link Prediction into Multi-Relational Item Graph Modeling for Session-based Recommendation. _IEEE Transactions on Knowledge and Data Engineering_.](https://ieeexplore.ieee.org/abstract/document/9536374/) | TKDE | 2021 | NA |
-| GNNH | [Yu, B., Zhang, R., Chen, W., & Fang, J. (2021). Graph neural network based model for multi-behavior session-based recommendation. _GeoInformatica_, 1-19.](https://link.springer.com/article/10.1007/s10707-021-00439-w) | GeoInformatica | 2021 | NA |
-
 ### Bundle Recommendation
 | **Name** | **Paper** | **Venue** | **Year** | **Code** |
 | --- | --- | --- | --- | --- |
@@ -138,6 +123,21 @@ An index of recommendation algorithms that are based on Graph Neural Networks.
 | DAN | [Wang, B., Zhang, C., Zhang, H., Lyu, X., & Tang, Z. (2020, October). Dual Autoencoder Network with Swap Reconstruction for Cold-Start Recommendation. In _Proceedings of the 29th ACM International Conference on Information & Knowledge Management_ (pp. 2249-2252).](https://dl.acm.org/doi/abs/10.1145/3340531.3412069) | CIKM | 2020 | NA |
 | HeroGRAPH | [Cui, Q., Wei, T., Zhang, Y., & Zhang, Q. (2020). HeroGRAPH: A Heterogeneous Graph Framework for Multi-Target Cross-Domain Recommendation. In _ORSUM@ RecSys_.](http://ceur-ws.org/Vol-2715/paper6.pdf) | RecSys | 2020 | [Python](https://github.com/cuiqiang1990/HeroGRAPH) |
 | DAGCN | [Guo, L., Tang, L., Chen, T., Zhu, L., Nguyen, Q. V. H., & Yin, H. (2021). DA-GCN: A Domain-aware Attentive Graph Convolution Network for Shared-account Cross-domain Sequential Recommendation. _arXiv preprint arXiv:2105.03300_.](https://arxiv.org/pdf/2105.03300) | IJCAI | 2021 | NA |
+
+### Multi-behavior Recommendation
+| **Name** | **Paper** | **Venue** | **Year** | **Code** |
+| --- | --- | --- | --- | --- |
+| MGNN-SPred | [Wang, W., Zhang, W., Liu, S., Liu, Q., Zhang, B., Lin, L., & Zha, H. (2020, April). Beyond clicks: Modeling multi-relational item graph for session-based target behavior prediction. In _Proceedings of The Web Conference 2020_ (pp. 3056-3062).](https://arxiv.org/pdf/2002.07993) | WWW | 2020 | [Python](https://github.com/Autumn945/MGNN-SPred) |
+| MBGCN | [Jin, B., Gao, C., He, X., Jin, D., & Li, Y. (2020, July). Multi-behavior recommendation with graph convolutional networks. In _Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval_ (pp. 659-668).](http://staff.ustc.edu.cn/~hexn/papers/sigir20-MBGCN.pdf) | SIGIR | 2020 | NA |
+| MGNN | [Zhang, W., Mao, J., Cao, Y., & Xu, C. (2020, October). Multiplex Graph Neural Networks for Multi-behavior Recommendation. In _Proceedings of the 29th ACM International Conference on Information & Knowledge Management_ (pp. 2313-2316).](https://dl.acm.org/doi/abs/10.1145/3340531.3412119) | CIKM | 2020 | NA |
+| KHGT | [Xia, L., Huang, C., Xu, Y., Dai, P., Zhang, X., Yang, H., ... & Bo, L. (2021, May). Knowledge-Enhanced Hierarchical Graph Transformer Network for Multi-Behavior Recommendation. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 35, No. 5, pp. 4486-4493).](https://www.aaai.org/AAAI21Papers/AAAI-3071.XiaL.pdf) | AAAI | 2021 | [Python](https://github.com/akaxlh/KHGT) |
+| GHCF | [Chen, C., Ma, W., Zhang, M., Wang, Z., He, X., Wang, C., ... & Ma, S. (2021, May). Graph Heterogeneous Multi-Relational Recommendation. In _Proceedings of the AAAI Conference on Artificial Intelligence_ (Vol. 35, No. 5, pp. 3958-3966).](https://www.aaai.org/AAAI21Papers/AAAI-615.ChenC.pdf) | AAAI | 2021 | [Python](https://github.com/chenchongthu/GHCF) |
+| GNMR | [Xia, L., Huang, C., Xu, Y., Dai, P., Lu, M., & Bo, L. (2021, April). Multi-Behavior Enhanced Recommendation with Cross-Interaction Collaborative Relation Modeling. In _2021 IEEE 37th International Conference on Data Engineering (ICDE)_ (pp. 1931-1936). IEEE.](https://ieeexplore.ieee.org/abstract/document/9458929) | ICDE | 2021 | [Python](https://github.com/akaxlh/GNMR) |
+| DMBGN | [Xiao, F., Li, L., Xu, W., Zhao, J., Yang, X., Lang, J., & Wang, H. (2021). DMBGN: Deep Multi-Behavior Graph Networks for Voucher Redemption Rate Prediction. _arXiv preprint arXiv:2106.03356_.](https://arxiv.org/pdf/2106.03356) | KDD | 2021 | [Python](https://github.com/fengtong-xiao/DMBGN) |
+| MB-GMN | [Xia, L., Xu, Y., Huang, C., Dai, P., & Bo, L. (2021, July). Graph meta network for multi-behavior recommendation. In _Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval_ (pp. 757-766).](https://dl.acm.org/doi/abs/10.1145/3404835.3462972) | SIGIR | 2021 | [Python](https://github.com/akaxlh/MB-GMN) |
+| HMG-CR | [Yang, H., Chen, H., Li, L., Yu, P. S., & Xu, G. (2021). Hyper Meta-Path Contrastive Learning for Multi-Behavior Recommendation. _arXiv preprint arXiv:2109.02859_.](https://arxiv.org/pdf/2109.02859) | ICDM | 2021 | [Python](https://github.com/Haoran-Young/HMG-CR) |
+| LP-MRGNN | [Wang, W., Zhang, W., Liu, S., Liu, Q., Zhang, B., Lin, L., & Zha, H. (2021). Incorporating Link Prediction into Multi-Relational Item Graph Modeling for Session-based Recommendation. _IEEE Transactions on Knowledge and Data Engineering_.](https://ieeexplore.ieee.org/abstract/document/9536374/) | TKDE | 2021 | NA |
+| GNNH | [Yu, B., Zhang, R., Chen, W., & Fang, J. (2021). Graph neural network based model for multi-behavior session-based recommendation. _GeoInformatica_, 1-19.](https://link.springer.com/article/10.1007/s10707-021-00439-w) | GeoInformatica | 2021 | NA |
 
 ## Recommendation Objectives
 ### Diversity
