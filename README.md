@@ -1,5 +1,7 @@
 # GNN based Recommender Systems
 An index of recommendation algorithms that are based on Graph Neural Networks.
+
+Our survey **Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions** is available on arxiv: [link](https://arxiv.org/pdf/2109.12843.pdf)
 # Table of Contents
 
 - [GNN in different recommendation stages](#Recommendation-Stages)
