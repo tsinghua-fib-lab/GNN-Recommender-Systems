@@ -2,6 +2,20 @@
 An index of recommendation algorithms that are based on Graph Neural Networks.
 
 Our survey **Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions** is available on arxiv: [link](https://arxiv.org/pdf/2109.12843.pdf)
+
+Please cite our survey paper if this index is helpful.
+```
+@article{gao2021graph,
+  title={Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions},
+  author={Gao, Chen and Zheng, Yu and Li, Nian and Li, Yinfeng and Qin, Yingrong and Piao, Jinghua and Quan, Yuhan and Chang, Jianxin and Jin, Depeng and He, Xiangnan and others},
+  journal={arXiv preprint arXiv:2109.12843},
+  year={2021}
+}
+```
+```
+Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., ... & Li, Y. (2021). Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. arXiv preprint arXiv:2109.12843.
+```
+
 # Table of Contents
 
 - [GNN in different recommendation stages](#Recommendation-Stages)
