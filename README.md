@@ -13,7 +13,7 @@ Please cite our survey paper if this index is helpful.
 }
 ```
 ```
-Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., ... & Li, Y. (2021). Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. arXiv preprint arXiv:2109.12843.
+Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin, D., He, X., & Li, Y. (2021). Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. arXiv preprint arXiv:2109.12843.
 ```
 
 # Table of Contents
