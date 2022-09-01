@@ -1,19 +1,20 @@
 # GNN based Recommender Systems
 An index of recommendation algorithms that are based on Graph Neural Networks.
 
-Our survey **Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions** is available on arxiv: [link](https://arxiv.org/pdf/2109.12843.pdf)
+Our survey **A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions** is accepted by ACM Transactions on Recommender Systems.
+A preprint is available on arxiv: [link](https://arxiv.org/pdf/2109.12843v2.pdf)
 
 Please cite our survey paper if this index is helpful.
 ```
 @article{gao2021graph,
-  title={Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions},
-  author={Gao, Chen and Zheng, Yu and Li, Nian and Li, Yinfeng and Qin, Yingrong and Piao, Jinghua and Quan, Yuhan and Chang, Jianxin and Jin, Depeng and He, Xiangnan and others},
+  title={A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions},
+  author={Gao, Chen and Zheng, Yu and Li, Nian and Li, Yinfeng and Qin, Yingrong and Piao, Jinghua and Quan, Yuhan and Chang, Jianxin and Jin, Depeng and He, Xiangnan and Li, Yong},
   journal={arXiv preprint arXiv:2109.12843},
   year={2021}
 }
 ```
 ```
-Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin, D., He, X., & Li, Y. (2021). Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. arXiv preprint arXiv:2109.12843.
+Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin, D., He, X., & Li, Y. (2021). A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. arXiv preprint arXiv:2109.12843.
 ```
 
 # Table of Contents
