@@ -6,16 +6,15 @@ A preprint is available on arxiv: [link](https://arxiv.org/pdf/2109.12843v2.pdf)
 
 Please cite our survey paper if this index is helpful.
 ```
-@article{gao2021graph,
+@article{gao2022survey,
   title={A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions},
   author={Gao, Chen and Zheng, Yu and Li, Nian and Li, Yinfeng and Qin, Yingrong and Piao, Jinghua and Quan, Yuhan and Chang, Jianxin and Jin, Depeng and He, Xiangnan and Li, Yong},
   journal={ACM Transactions on Recommender Systems (TORS)},
-  year={2021},
-  publisher={ACM}
+  year={2022}
 }
 ```
 ```
-Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin, D., He, X., & Li, Y. (2021). A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. ACM Transactions on Recommender Systems (TORS).
+Gao, C., Zheng, Y., Li, N., Li, Y., Qin, Y., Piao, J., Quan, Y., Chang, J., Jin, D., He, X., & Li, Y. (2022). A Survey of Graph Neural Networks for Recommender Systems: Challenges, Methods, and Directions. ACM Transactions on Recommender Systems (TORS).
 ```
 
 # Table of Contents
